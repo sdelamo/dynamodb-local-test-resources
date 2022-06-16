@@ -1,0 +1,12 @@
+plugins {
+    id 'groovy'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.groovy:groovy:4.0.3'
+    implementation 'io.micronaut.testresources:micronaut-test-resources-core:1.0.0-M2'
+}

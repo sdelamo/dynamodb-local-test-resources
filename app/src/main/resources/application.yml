@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: dynamodbtemp
+netty:
+  default:
+    allocator:
+      max-order: 3
+dynamodb:
+  table-name: 'foo'

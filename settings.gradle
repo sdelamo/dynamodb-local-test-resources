@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+rootProject.name="dynamodbtemp"
+
+include 'app'
+include 'test-resources'
